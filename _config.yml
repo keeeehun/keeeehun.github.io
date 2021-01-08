@@ -110,7 +110,7 @@ content:
         #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           Operating System based on C
-          4 Sub-projects: Thread, User program, Virtual Memory, File System
+          (4 Sub-projects: Thread, User program, Virtual Memory, File System)
         description: | # this will include new lines to allow paragraphs
         
       - layout: left
