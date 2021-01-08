@@ -29,7 +29,7 @@ instagram_username: keeeehun
 #linkedin_username: jekyll
 #xing_username: jekyll
 #pinterest_username: jekyll
-youtube_username: 박기훈
+#youtube_username:
 #googleplus_username: +jekyll
 #orcid_username: 0000-0000-0000-0000
 
@@ -52,63 +52,139 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  #Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
   I'm a M.S. student in the AIGS(Artificial Intelligence Graduate School), supervised by prof.Sungbin Lim.
+  
+  Research interests
+  - Uncertainty quantification
+  - Optimization
+  - Motion Retargeting
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  #You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+  #  - Lists
+  #  - Tables
+  #  - <a href="google.com">Links</a>
+  #  - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Using virtual machine dynamically
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 2014.09 - 2014.12
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #  icon: fab fa-github
+          #  url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #  icon: fab fa-github
+          #  url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          Research internship based on Hadoop process
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+        
+      - layout: left
+        title: Predict Future Sales
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 2018.09 - 2018.12
+        additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Developing model by using XGBoost and lightGBM (Kaggle project)
+        description: | # this will include new lines to allow paragraphs
+          
+          
+      - layout: left
+        title: Pintos Project
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 2019.03 - 2019.06
+        additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Operating System based on C
+          4 Sub-projects: Thread, User program, Virtual Memory, File System
+        description: | # this will include new lines to allow paragraphs
+        
+      - layout: left
+        title: Play Direction Sketch Tool
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 2019.09 - 2019.12 
+        additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Computer Graphics final project with OpenGL
+        description: | # this will include new lines to allow paragraphs
+        
+      - layout: left
+        title: Maintenance and Making new function of ERP
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 2019.12 - 2020.02
+        additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Industry internship based on SQL
+        description: | # this will include new lines to allow paragraphs
+          
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Ulsan National Institute of Science and Technology
+      - layout: left
+        title: UNIST
         #sub_title: graduated in August, 2020
         caption: graduated in August, 2020
         #link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+        description: | # this will include new lines to allow paragraphs
+        
+      - layout: left
+        title: Rotman - Unist Trading Competition 2018 2nd winner
+        #sub_title: graduated in August, 2020
+        caption: August, 2018
+        #link: Link to company (optional)
+        quote: >
+          Algorithm Trading Competition in 4 cases based on Python
+        description: | # this will include new lines to allow paragraphs
+        
+#  - title: Education
+#    layout: list
+#    content:
+#      - layout: top-right
+#        title: Institution name
+#        sub_title: Qualifications (eg. BA Performing Arts)
+#        caption: Date Range (eg. 2016 - 2019)
+#        quote: >
+#          Short institution or course description (optional)
+#        description: | # this will include new lines to allow paragraphs
+#          Description of qualification
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+#      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
