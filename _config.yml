@@ -52,7 +52,6 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  #Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
   I'm a M.S. student in the AIGS(Artificial Intelligence Graduate School), supervised by prof.Sungbin Lim.
   
   Research interests
@@ -60,20 +59,15 @@ about_content: | # this will include new lines to allow paragraphs
   - Optimization
   - Motion Retargeting
 
-  #You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-  #  - Lists
-  #  - Tables
-  #  - <a href="google.com">Links</a>
-  #  - Images ![alt text](/images/landscape-trees.jpg "Trees")
-
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: Using virtual machine dynamically
+        caption: 2014.09 - 2014.12
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: 2014.09 - 2014.12
+        link_text: 
         additional_links:
           #- title:  Github page for project (eg. sproogen/modern-resume-theme)
           #  icon: fab fa-github
@@ -87,8 +81,9 @@ content:
         
       - layout: left
         title: Predict Future Sales
+        caption: 2018.09 - 2018.12
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: 2018.09 - 2018.12
+        link_text: 
         additional_links:
         #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #    icon: fab fa-github
@@ -97,14 +92,15 @@ content:
         #    icon: fab fa-github
         #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Developing model by using XGBoost and lightGBM (Kaggle project)
+          Developing model by using XGBoost and lightGBM (Kaggle project) 
         description: | # this will include new lines to allow paragraphs
           
           
       - layout: left
         title: Pintos Project
+        caption: 2019.03 - 2019.06
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: 2019.03 - 2019.06
+        link_text:
         additional_links:
         #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #    icon: fab fa-github
@@ -119,8 +115,9 @@ content:
         
       - layout: left
         title: Play Direction Sketch Tool
+        caption: 2019.09 - 2019.12 
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: 2019.09 - 2019.12 
+        link_text: 
         additional_links:
         #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #    icon: fab fa-github
@@ -134,8 +131,9 @@ content:
         
       - layout: left
         title: Maintenance and Making new function of ERP
+        caption: 2019.12 - 2020.02
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: 2019.12 - 2020.02
+        link_text:
         additional_links:
         #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #    icon: fab fa-github
@@ -156,7 +154,7 @@ content:
         caption: graduated in August, 2020
         #link: Link to company (optional)
         quote: >
-
+          Ulsan National Institute of Science and Technology
         description: | # this will include new lines to allow paragraphs
         
       - layout: left
